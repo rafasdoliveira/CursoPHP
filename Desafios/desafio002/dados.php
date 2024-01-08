@@ -14,7 +14,7 @@
         <?php 
             $n1 = $_GET["n1"] ?? "Você precisa informar um número";
             $n2 = $_GET["n2"] ?? "Você precisa informar um número";
-            echo "O número gerado foi: " . rand($n1, $n2);
+            echo "O número gerado foi: " . mt_rand($n1, $n2);
         ?>
     </main>
 </body>
